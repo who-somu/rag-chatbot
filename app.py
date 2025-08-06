@@ -37,7 +37,7 @@ def load_models():
     """
     embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
-    model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+    model_name = "distilgpt2"
 
     quantization_config = BitsAndBytesConfig(
         load_in_4bit=True,
